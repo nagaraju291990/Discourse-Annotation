@@ -1,0 +1,134 @@
+[Line 1]: [L1 Format extra-empty-line] Spurious empty line. Only one empty line is expected after every sentence.
+[Line 9]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_loc'.
+[Line 9]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '7:obl_loc'.
+[Line 9]: [L4 Morpho feature-unknown] Feature Case is not documented for language [te].
+
+The following 4 feature values are currently permitted in language [te]:
+Abbr=Yes, Foreign=Yes, NumType=Card, Typo=Yes
+If a language needs a feature that is not documented in the universal guidelines, the feature must
+have a language-specific documentation page in a prescribed format.
+See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
+All features including universal must be specifically turned on for each language in which they are used.
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_feature.pl for details.
+
+[Line 9]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 9]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_loc'
+
+The following 48 relations are currently permitted in language [te]:
+acl, acl:relcl, advcl, advcl:cond, advmod, amod, appos, aux, case, cc, ccomp, clf, compound, compound:lvc, compound:redup, compound:svc, conj, cop, csubj, dep, det, discourse, dislocated, expl, fixed, flat, goeswith, iobj, list, mark, nmod, nmod:poss, nmod:tmod, nsubj, nsubj:nc, nummod, obj, obl, obl:cau, obl:cmp, obl:tmod, orphan, parataxis, punct, reparandum, root, vocative, xcomp
+If a language needs a relation subtype that is not documented in the universal guidelines, the relation
+must have a language-specific documentation page in a prescribed format.
+See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
+Documented dependency relations can be specifically turned on/off for each language in which they are used.
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_deprel.pl for details.
+
+[Line 9]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_loc' in '7:obl_loc'
+
+The following 52 enhanced relations are currently permitted in language [te]:
+acl, acl:relcl, advcl, advcl:cond, advmod, amod, appos, aux, case, cc, ccomp, clf, compound, compound:lvc, compound:redup, compound:svc, conj, cop, csubj, csubj:xsubj, dep, det, discourse, dislocated, expl, fixed, flat, goeswith, iobj, list, mark, nmod, nmod:poss, nmod:tmod, nsubj, nsubj:nc, nsubj:nc:xsubj, nsubj:xsubj, nummod, obj, obl, obl:cau, obl:cmp, obl:tmod, orphan, parataxis, punct, ref, reparandum, root, vocative, xcomp
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
+
+[Line 10]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 12]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 13]: [L4 Morpho feature-unknown] Feature Polarity is not documented for language [te].
+[Line 13]: [L4 Morpho feature-unknown] Feature VerbForm is not documented for language [te].
+[Line 15]: [L4 Morpho feature-unknown] Feature Polarity is not documented for language [te].
+[Line 15]: [L4 Morpho feature-unknown] Feature VerbForm is not documented for language [te].
+[Line 16]: [L4 Morpho feature-unknown] Feature Case is not documented for language [te].
+[Line 16]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 17]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 19]: [L4 Morpho feature-unknown] Feature Case is not documented for language [te].
+[Line 19]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 21]: [L4 Morpho feature-unknown] Feature Case is not documented for language [te].
+[Line 21]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 23]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 24]: [L4 Morpho feature-unknown] Feature Case is not documented for language [te].
+[Line 24]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 25]: [L4 Morpho feature-unknown] Feature Number is not documented for language [te].
+[Line 26]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_#number'.
+[Line 26]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '23:obl_#number'.
+[Line 26]: [L4 Morpho feature-unknown] Feature Case is not documented for language [te].
+...suppressing further errors regarding Morpho
+[Line 26]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_#number'
+[Line 26]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_#number' in '23:obl_#number'
+[Line 31]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+[Line 7]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'oVka' but text is 'ఒక నిర్ధిష్టమైన పద్ధతిలో...'
+[Line 31]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'ఒక నిర్ధిష్టమైన పద్ధతిలో మొక్కలను, జంతువులను పెంచి, పోషించి తద్వారా ఆహారాన్ని, మేత, నార, ఇంధనాన్ని ఉత్పత్తి చేయటాన్ని వ్యవసాయం లేదా కృషి అంటారు.									_'
+[Line 25 Node 19]: [L3 Syntax too-many-subjects] Multiple subjects [13, 15, 18] not subtyped as ':outer'.
+[Line 45]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+[Line 37]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'vyavasAyaM' but text is 'వ్యవసాయం చరిత్ర మానవ చరిత్రలో ...'
+[Line 45]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'వ్యవసాయం చరిత్ర మానవ చరిత్రలో అతి పెద్ద అంశం.									_'
+[Line 37]: [L2 Syntax multiple-roots] Multiple root words: [1, 2, 4, 5, 7]
+[Line 37]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 59]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+[Line 51]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'prapaMcavyApwa' but text is 'ప్రపంచవ్యాప్త సామాజిక ఆర్థిక ప్రగత...'
+[Line 59]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'ప్రపంచవ్యాప్త సామాజిక ఆర్థిక ప్రగతిలో వ్యవసాయభివృద్ధి ఒక కీలకాంశం.									_'
+[Line 51]: [L2 Syntax multiple-roots] Multiple root words: [4, 5, 7]
+[Line 51]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 70]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_loc'.
+[Line 70]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '7:obl_loc'.
+[Line 70]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_loc'
+[Line 70]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_loc' in '7:obl_loc'
+[Line 72]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_loc'.
+[Line 72]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '9:obl_loc'.
+[Line 72]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_loc'
+[Line 72]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_loc' in '9:obl_loc'
+[Line 85]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+[Line 65]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'vetAdataM' but text is 'వేటాడటం ద్వారా ఆహార సముపార్జన...'
+[Line 85]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'వేటాడటం ద్వారా ఆహార సముపార్జన చేసుకొనే స్థితిలో ఉన్న సంస్కృతులలో కనిపించని సంపద సమకూర్చుకోవటం, సైనిక కలాపాలవంటి ప్రత్యేకతలు వ్యవసాయం అభివృద్ధి చెందటంతోనే ప్రారంభమయ్యాయి.									_'
+[Line 65]: [L2 Syntax multiple-roots] Multiple root words: [9, 18, 19]
+[Line 65]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 92]: [L1 Format invalid-whitespace] White space not allowed in column FEATS: 'Case=Nom|Gender=Fem, Masc|Number=Plur|Person=3'.
+[Line 94]: [L1 Format invalid-whitespace] White space not allowed in column FEATS: 'Gender=Fem, Masc|Number=Sing|Person=3'.
+[Line 100]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_com'.
+[Line 100]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '20:obl_com'.
+[Line 100]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_com'
+[Line 100]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_com' in '20:obl_com'
+[Line 111]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column XPOS. Now: '-'.
+[Line 115]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+[Line 91]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'samAjaMloni' but text is 'సమాజంలోని కొందరు రైతులు తమ కుటు...'
+[Line 112]: [L2 Metadata spaceafter-mwt-node] 'SpaceAfter=No' cannot occur with words that are part of a multi-word token.
+[Line 115]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'సమాజంలోని కొందరు రైతులు తమ కుటుంబ ఆహార అవసరాలకు మించి పండిచటం ప్రారంభించడంతో తెగ/జాతి/రాజ్యంలోని మిగిలిన వ్యక్తులకు ఇతర వ్యాపకాలను పోషించే వెసులుబాటునిచ్చింది.									_'
+[Line 91]: [L2 Syntax multiple-roots] Multiple root words: [9, 20, 21, 22]
+[Line 91]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 121]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_#number'.
+[Line 121]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '9:obl_#number'.
+[Line 121]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_#number'
+[Line 121]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_#number' in '9:obl_#number'
+[Line 123]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_loc'.
+[Line 123]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '9:obl_loc'.
+[Line 123]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl_loc'
+[Line 123]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_loc' in '9:obl_loc'
+[Line 126]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'obl_#number'.
+[Line 126]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '9:obl_#number'.
+...suppressing further errors regarding Syntax
+[Line 126]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_#number' in '9:obl_#number'
+[Line 140]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+[Line 121]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'prapaMcaM' but text is 'ప్రపంచం లోని శ్రామికులలో 42% ...'
+[Line 140]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'ప్రపంచం లోని శ్రామికులలో 42% మంది వ్యవసాయ రంగములో పనిచేస్తున్నారు అందుచేత వ్యవసాయం, ప్రపంచం లోనే అధిక శాతం ప్రజల వృత్తి.									_'
+[Line 121]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 163]: [L2 Metadata missing-sent-id] Missing the sent_id attribute.
+...suppressing further errors regarding Metadata
+[Line 146]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 170]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '15:obl_#number'.
+[Line 170]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_#number' in '15:obl_#number'
+[Line 175]: [L2 Enhanced invalid-edeprel] Invalid enhanced relation type: '15:obl_#number'.
+[Line 175]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl_#number' in '15:obl_#number'
+...suppressing further errors regarding Enhanced
+[Line 273]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 313]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 329]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 352]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column XPOS. Now: '-'.
+[Line 343]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 390]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column XPOS. Now: '-'.
+[Line 400]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column XPOS. Now: '-'.
+[Line 389]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 426]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column XPOS. Now: '-'.
+[Line 434]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column XPOS. Now: '-'.
+...suppressing further errors regarding Format
+Enhanced errors: 6573
+Format errors: 3428
+Metadata errors: 11654
+Morpho errors: 61250
+Syntax errors: 9328
+*** FAILED *** with 92233 errors

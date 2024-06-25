@@ -1,0 +1,1 @@
+Including only the Bootstrap bundle with popper - as per @Kevin's comment above - fixed the issue for me - And the previous conflicts don't seem to be an issue anymore. All popovers, tooltips, modals, sidebars etc. seem to now be working properly:

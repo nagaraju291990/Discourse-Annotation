@@ -1,0 +1,37 @@
+# Sent_id = 3b
+#text= புராணங்களில் ஆப்பிள்ஆதாமும் ஏவாளும் ஆப்பிளை முதன்முதலில் சாப்பிட்ட பின்னர், நல்ல உடல்நலத்துக்காக யூதர்கள் ஷேகர் என்ற பானத்தையும், கிரேக்கர்கள் சிகரா என்ற பானத்தையும் ஆப்பிளில் இருந்து தயாரித்து குடித்து வந்தனர்.
+# url = https://www.femina.in/tamil/health/diet/benefits-of-apple-1686.html
+7	புராணங்களில்	புராணங்கள்	NOUN	_	Case=Nom|Number=Plur	15	obl	15:obl	_
+8-10	ஆப்பிளாதாமும்	ஆப்பிளாதாமும்	_	_	_	_	_	_	_
+8	ஆப்பிள்	ஆப்பிள்	NOUN	_	Case=Nom|Number=Sing	15	obj	15:obj	SpaceAfter=No
+9	ஆதாம்	ஆதாம்	PROPN	_	Case=Nom|Number=Sing	15	obl	15:obl	_
+10	உம்	உம்	PART	_	_	9	mark	9:mark	_
+11-12	ஏவாளும்	ஏவாளும்	_	_	_	_	_	_	_
+11	ஏவாள்	ஏவாள்	PROPN	_	Case=Nom|Number=Sing	9	conj	9:conj	SpaceAfter=No
+12	உம்	உம்	PART	_	_	11	mark	11:mark	_
+13	ஆப்பிளை	ஆப்பிள்	NOUN	_	Case=Acc|Number=Sing	15	obj	15:obj	_
+14	முதன்முதலில்	முதன்முதல்	NOUN	_	Case=Loc|Number=Sing	15	obl	15:obl	_
+15	சாப்பிட்ட	சாப்பிடு	VERB	_	Polarity=Pos|Tense=Past|VerbForm=Part	19	acl	19:acl	_
+16	பின்னர்	பின்னர்	ADV	_	_	33	advmod	33:advmod	_
+17	,	,	PUNCT	_	_	16	punct	16:punct	_
+18	நல்ல	நல்ல	ADJ	_	_	19	amod	19:amod	_
+19	உடல்நலத்துக்காக	உடல்நலத்துக்காக	NOUN	_	Case=Dat|Number=Sing	33	obl	33:obl	SpaceAfter=No
+20	யூதர்கள்	யூதர்	PROPN	_	Case=Nom|Number=Plur	21	compound	21:compound	_
+21	ஷேகர்	ஷேகர்	PROPN	_	Case=Nom|Number=Sing	27	compound	27:compound	_
+22	என்ற	என்ற	ADJ	_	_	23	amod	23:amod	_
+23-24	பானத்தையும்	பானத்தையும்	_	_	_	_	_	_	_
+23	பானத்தை	பானம்	NOUN	_	Case=Acc|Number=Sing	33	obl	33:obl	SpaceAfter=No
+24	உம்	உம்	PART	_	_	23	mark	23:mark	_
+25	,	,	PUNCT	_	_	24	punct	24:punct	_
+26	கிரேக்கர்கள்	கிரேக்கர்	PROPN	_	Case=Nom|Number=Plur	27	compound	27:compound	_
+27	சிகரா	சிகரா	PROPN	_	Case=Nom|Number=Sing	33	nsubj	33:nsubj	_
+28	என்ற	என்ற	ADJ	_	_	29	amod	29:amod	_
+29-30	பானத்தையும்	பானத்தையும்	_	_	_	_	_	_	_
+29	பானத்தை	பானம்	NOUN	_	Case=Acc|Number=Sing	33	obj	33:obj	SpaceAfter=No
+30	உம்	உம்	PART	_	_	29	mark	29:mark	_
+31	ஆப்பிளில்	ஆப்பிள்	NOUN	_	Case=Loc|Number=Sing	33	obl	33:obl	_
+32	இருந்து	இருந்து	ADP	_	_	31	case	31:case	_
+33	தயாரித்து	தயாரி	VERB	_	Polarity=Pos|VerbForm=Conv	34	advcl	34:advcl	_
+34	குடித்து	குடி	VERB	_	Polarity=Pos|VerbForm=Conv	0	root	0:root	_
+35	வந்தனர்	வா	AUX	_	Gender=Com|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	34	aux	34:aux	_
+36	.	.	PUNCT	_	_	34	punct	34:punct	_

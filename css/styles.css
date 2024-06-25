@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+.highlight {
+	background-color: yellow;
+}
+.tooltip {
+	position: absolute;
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	display: none;
+}
+#annotations {
+	margin-top: 20px;
+	max-height: 300px;
+	overflow-y: auto;
+	font-size: 20px;
+	font-family: arial;
+}
+.annotation-pair {
+	margin-bottom: 5px;
+}
+.line {
+	position: absolute;
+	width: 2px;
+	background-color: red;
+	/* display	: none; */
+}

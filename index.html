@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anaphora Annotator</title>
+
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/FileSaver.js"></script>
+	<!-- <script type="text/javascript" src="js/validation.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+
+	<script type="text/javascript" src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js" ></script>
+	
+	<link rel="stylesheet" type="text/css" href="codemirror-5.40.0/lib/codemirror.css">
+	<link rel="stylesheet" type="text/css" href="codemirror-5.40.0/addon/dialog/dialog.css">
+	<script type="text/javascript" src="codemirror-5.40.0/lib/codemirror.js"></script>
+	<script type="text/javascript" src="codemirror-5.40.0/addon/search/search.js"></script>
+	<script type="text/javascript" src="codemirror-5.40.0/addon/search/searchcursor.js"></script>
+	<script type="text/javascript" src="codemirror-5.40.0/addon/search/jump-to-line.js"></script>
+	<script type="text/javascript" src="codemirror-5.40.0/addon/dialog/dialog.js"></script>
+	<script type="text/javascript" src="codemirror-5.40.0/mode/xml/xml.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div class="container-xs container-sm container-md container-lg container-xl container-xxl">
+		<form class="form-inline" id="upload" method="post" enctype="multipart/form-data">
+			<div class="btn-group col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 flex-wrap" role="group" aria-label="Basic example">
+				<label class="btn btn-outline-primary" for="my-file-selector" data-bs-title="Choose File" data-bs-placement="bottom" data-bs-toggle="tooltip">
+					<!--<input accept=".doc,.rtf,.docx,.pdf,text/plain" type="file" id="file" name="inputfile" multiple/>-->
+					<input accept="text/plain,.doc" type="file" id="file" name="inputfile" onchange="startRead(this)" multiple>
+				</label>
+				<!-- <button class="btn btn-outline-secondary">H</button>
+				<button class="btn btn-outline-secondary">H</button> -->
+				<select class="form-select" style="width: 30%;" data-bs-title="Choose Annotation type" data-bs-placement="bottom" data-bs-toggle="tooltip">
+					<option value="anaphora">Anaphora</option>
+					<option value="connective">Connectives</option>
+				</select>
+				
+			</div>
+		</form>
+
+		<div style="margin-top: 3%;" class="col-xs col-sm col-md col-lg col-xl col-xxl" id="annotations">
+
+		</div>
+
+		<div id="buttons" class="btn-group flex-wrap" role="group" aria-label="Toolbar">
+			<button type="button" id="submit" class="btn btn-outline-secondary">Submit Anaphora</button>
+			<button type="button" id="download" class="btn btn-outline-secondary">Download Annotations</button>
+			<button type="button" id="viewXML" class="btn btn-outline-secondary">View XML</button>
+			<button type="button" id="view" class="btn btn-outline-secondary">View Annotations</button>
+			<button type="button" id="save" class="btn btn-outline-primary">Save</button>
+		</div>
+
+		<div id="statusDiv" class="status"></div>
+		<textarea style="width:100%; display: none;" id="textarea"></textarea>
+		<span id="word1"></span>
+		<span id="word2"></span>
+		<div id="annaphora-pairs"></div>
+		<svg width="500" height="500"><line stroke="red" id="line"/></svg>
+		<div id="start">start</div>
+		<div id="end">end</div>
+
+		</div>
+	</div>
+</body>
+<script src="js/leader-line.min.js"></script>
+</html>
